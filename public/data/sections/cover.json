@@ -1,0 +1,374 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Welcome!",
+        "title_short_nav": "About me",
+        "title_long_prefix": "Hello...",
+        "title_long": "I'm {{James Karanja!}}"
+      },
+      "es": {
+        "title_short": "¡Saludos!",
+        "title_short_nav": "Sobre mí",
+        "title_long_prefix": "Hola...",
+        "title_long": "Soy {{James Karanja!}}"
+      },
+      "fr": {
+        "title_short": "Salut !",
+        "title_short_nav": "À propos",
+        "title_long_prefix": "Salut...",
+        "title_long": "Je suis {{James Karanja !}}"
+      },
+      "ko": {
+        "title_short": "환영합니다!",
+        "title_short_nav": "소개",
+        "title_long_prefix": "안녕하세요...",
+        "title_long": "저는 {{최민석}}입니다!"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleInlineList",
+      "locales": {},
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc",
+        "display_as_list_if_width_is_lower_than": 380
+      },
+      "items": [
+        {
+          "id": 1,
+          "label": "Nairobi – KE",
+          "link": { "href": "", "tooltipString": "" },
+          "faIcon": "pi pi-map-marker"
+        },
+        {
+          "id": 2,
+          "label": "karanja155@outlook.com",
+          "link": {
+            "href": "mailto:karanja155@outlook.com",
+            "tooltipString": "email_me"
+          },
+          "faIcon": "fa-regular fa-envelope"
+        },
+        {
+          "id": 3,
+          "label": "@jaykaranja",
+          "link": {
+            "href": "https://github.com/jaykaranja",
+            "tooltipString": "see_on_github"
+          },
+          "faIcon": "fa-brands fa-github"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "component": "ArticleText",
+      "locales": {
+        "en": { "title": "{{A little bit}} about me..." },
+        "es": { "title": "{{Un poco}} sobre mí..." },
+        "fr": { "title": "{{Un peu}} à propos de moi..." },
+        "ko": { "title": "저에 {{대해 조금}}..." }
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "images/pictures/about-texts-image-1.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "text": "<p>I’m a software developer focused on {{C# / .NET}} and {{JavaScript / TypeScript}}, with strong experience building backend systems and modern frontend applications using React and Next.js.</p><p>I’ve worked extensively with cloud platforms—particularly Azure—designing APIs, integrating authentication flows, and building scalable, real-world systems such as POS platforms, admin dashboards, and financial applications.</p><p>I enjoy working close to the product, collaborating with teams, and turning complex requirements into clean, maintainable solutions. I’m always looking to grow, especially in areas like system design and AI-driven tools.</p><p>I look forward to collaborating [[with you!]]</p>"
+            },
+            "es": {
+              "text": "<p>Soy un desarrollador de software enfocado en {{C# / .NET}} y {{JavaScript / TypeScript}}, con experiencia sólida en la creación de sistemas backend y aplicaciones frontend modernas utilizando React y Next.js.</p><p>He trabajado ampliamente con plataformas en la nube—especialmente Azure—diseñando APIs, integrando flujos de autenticación y construyendo sistemas reales y escalables como plataformas POS, paneles administrativos y aplicaciones financieras.</p><p>Disfruto trabajar cerca del producto, colaborar en equipo y convertir requisitos complejos en soluciones limpias y mantenibles. Busco crecer continuamente, especialmente en diseño de sistemas y herramientas impulsadas por IA.</p><p>¡Espero colaborar [[contigo!]]</p>"
+            },
+            "fr": {
+              "text": "<p>Je suis développeur logiciel spécialisé en {{C# / .NET}} et {{JavaScript / TypeScript}}, avec une solide expérience dans le développement de systèmes backend et d’applications frontend modernes avec React et Next.js.</p><p>J’ai travaillé de manière approfondie avec des plateformes cloud—en particulier Azure—en concevant des API, en intégrant des systèmes d’authentification et en développant des solutions réelles et évolutives telles que des systèmes POS, des tableaux de bord administratifs et des applications financières.</p><p>J’aime travailler au plus près du produit, collaborer avec les équipes et transformer des exigences complexes en solutions propres et maintenables. Je cherche constamment à progresser, notamment en architecture logicielle et en outils basés sur l’IA.</p><p>Je suis impatient de collaborer [[avec vous !]]</p>"
+            },
+            "ko": {
+              "text": "<p>저는 {{C# / .NET}}과 {{JavaScript / TypeScript}}를 중심으로 일하는 소프트웨어 개발자로, React와 Next.js를 활용한 현대적인 프론트엔드와 안정적인 백엔드 시스템을 구축해 왔습니다.</p><p>특히 Azure를 중심으로 한 클라우드 환경에서 API 설계, 인증 시스템 연동, POS 플랫폼, 관리자 대시보드, 금융 애플리케이션과 같은 실제 서비스용 시스템을 개발한 경험이 있습니다.</p><p>제품과 가까운 위치에서 팀과 협업하며 복잡한 요구사항을 깔끔하고 유지보수하기 쉬운 코드로 구현하는 것을 좋아합니다. 또한 시스템 설계와 AI 기반 도구 분야에서 지속적인 성장을 추구하고 있습니다.</p><p>[[함께 협업]]하기를 기대합니다!</p>"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "component": "ArticleTestimonials",
+      "locales": {
+        "en": { "title": "Client {{testimonials}}" },
+        "es": { "title": "Testimonios de {{clientes}}" },
+        "fr": { "title": "Témoignages de {{clients}}" },
+        "ko": { "title": "{{고객}} 추천사" }
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "label": "Product Manager",
+          "link": { "href": "", "tooltipString": "" },
+          "img": "images/pictures/testimonial-person-female-1.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "Product Lead",
+              "text": "Working together was a [[smooth and reliable experience]]. Complex requirements were translated into clean, scalable solutions, and communication throughout the project was clear and proactive."
+            },
+            "es": {
+              "title": "Líder de Producto",
+              "text": "Trabajar juntos fue una [[experiencia fluida y confiable]]. Los requisitos complejos se transformaron en soluciones limpias y escalables, con una comunicación clara y constante."
+            },
+            "fr": {
+              "title": "Responsable Produit",
+              "text": "La collaboration a été une [[expérience fluide et fiable]]. Des exigences complexes ont été transformées en solutions propres et évolutives, avec une communication claire."
+            },
+            "ko": {
+              "title": "프로덕트 리드",
+              "text": "함께 일하는 과정은 [[매우 안정적이고 원활]]했습니다. 복잡한 요구사항도 깔끔하고 확장 가능한 솔루션으로 구현되었습니다."
+            }
+          }
+        },
+        {
+          "id": 2,
+          "label": "Engineering Lead",
+          "link": { "href": "", "tooltipString": "" },
+          "img": "images/pictures/testimonial-person-male-1.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "Senior Software Engineer",
+              "text": "A strong engineer with [[solid system design skills]]. Code quality, performance, and maintainability were always top priorities, making collaboration easy and productive."
+            },
+            "es": {
+              "title": "Ingeniero de Software Senior",
+              "text": "Un ingeniero sólido con [[gran capacidad de diseño de sistemas]]. La calidad del código y la mantenibilidad siempre fueron prioritarias."
+            },
+            "fr": {
+              "title": "Ingénieur Logiciel Senior",
+              "text": "Un ingénieur solide avec de [[bonnes compétences en conception de systèmes]]. La qualité et la maintenabilité du code étaient toujours prioritaires."
+            },
+            "ko": {
+              "title": "시니어 소프트웨어 엔지니어",
+              "text": " [[탄탄한 시스템 설계 역량]]을 가진 엔지니어입니다. 코드 품질과 유지보수성이 항상 우선시되었습니다."
+            }
+          }
+        },
+        {
+          "id": 3,
+          "label": "Startup Founder",
+          "link": { "href": "", "tooltipString": "" },
+          "img": "images/pictures/testimonial-person-female-2.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "Founder & CEO",
+              "text": "The project benefited greatly from his [[problem-solving mindset]] and ability to move quickly without sacrificing quality. A dependable partner from start to finish."
+            },
+            "es": {
+              "title": "Fundadora y CEO",
+              "text": "El proyecto se benefició enormemente de su [[enfoque para resolver problemas]] y su capacidad para avanzar rápido sin perder calidad."
+            },
+            "fr": {
+              "title": "Fondatrice & PDG",
+              "text": "Le projet a grandement bénéficié de son [[esprit de résolution de problèmes]] et de sa capacité à avancer rapidement sans compromettre la qualité."
+            },
+            "ko": {
+              "title": "창업자 & CEO",
+              "text": " [[문제 해결 중심 사고]]와 빠른 실행력이 프로젝트 전반에 큰 도움이 되었습니다."
+            }
+          }
+        },
+        {
+          "id": 4,
+          "label": "UX Designer",
+          "link": { "href": "", "tooltipString": "" },
+          "img": "images/pictures/testimonial-person-male-2.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "Design Lead",
+              "text": "Great to collaborate with—[[detail-oriented]], technically strong, and always respectful of design intent while ensuring feasibility."
+            },
+            "es": {
+              "title": "Líder de Diseño",
+              "text": "Excelente colaboración: [[atento a los detalles]], técnicamente sólido y siempre respetuoso con la intención del diseño."
+            },
+            "fr": {
+              "title": "Responsable Design",
+              "text": "Excellente collaboration : [[souci du détail]], solide techniquement et attentif à l’intention du design."
+            },
+            "ko": {
+              "title": "디자인 리드",
+              "text": " [[디테일에 강하고]] 기술적으로 탄탄하며 디자인 의도를 존중하는 협업 파트너였습니다."
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "component": "ArticleInfoList",
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "locales": {
+        "en": { "title": "Personal {{interests}}" },
+        "es": { "title": "Intereses {{personales}}" },
+        "fr": { "title": "Intérêts {{personnels}}" },
+        "ko": { "title": "개인 {{관심사}}" }
+      },
+      "items": [
+        {
+          "id": 1,
+          "faIcon": "fa-solid fa-code",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": null,
+          "link": { "href": null, "tooltipString": null },
+          "copyToClipboardButton": false,
+          "locales": {
+            "en": {
+              "title": "{{Coding}} & Software Engineering",
+              "text": "Building reliable systems, writing clean code, and turning complex requirements into working solutions."
+            },
+            "es": {
+              "title": "{{Programación}} e Ingeniería de Software",
+              "text": "Construir sistemas confiables, escribir código limpio y convertir requisitos complejos en soluciones funcionales."
+            },
+            "fr": {
+              "title": "{{Programmation}} & Ingénierie Logicielle",
+              "text": "Construire des systèmes fiables, écrire du code propre et transformer des exigences complexes en solutions concrètes."
+            },
+            "ko": {
+              "title": "{{코딩}} 및 소프트웨어 엔지니어링",
+              "text": "안정적인 시스템을 만들고, 깔끔한 코드를 작성하며 복잡한 요구사항을 실제 솔루션으로 구현하는 것."
+            }
+          }
+        },
+        {
+          "id": 2,
+          "faIcon": "fa-solid fa-brain",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": null,
+          "link": { "href": null, "tooltipString": null },
+          "copyToClipboardButton": false,
+          "locales": {
+            "en": {
+              "title": "{{Learning}} & Problem Solving",
+              "text": "Continuously improving my skills, exploring new technologies, and solving real-world technical challenges."
+            },
+            "es": {
+              "title": "{{Aprendizaje}} y Resolución de Problemas",
+              "text": "Mejorar continuamente mis habilidades, explorar nuevas tecnologías y resolver desafíos técnicos reales."
+            },
+            "fr": {
+              "title": "{{Apprentissage}} & Résolution de Problèmes",
+              "text": "Améliorer continuellement mes compétences, explorer de nouvelles technologies et résoudre des défis techniques concrets."
+            },
+            "ko": {
+              "title": "{{학습}} 및 문제 해결",
+              "text": "기술 역량을 지속적으로 향상시키고 새로운 기술을 탐구하며 실제 문제를 해결하는 것."
+            }
+          }
+        },
+        {
+          "id": 3,
+          "faIcon": "fa-solid fa-music",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": null,
+          "link": { "href": null, "tooltipString": null },
+          "copyToClipboardButton": false,
+          "locales": {
+            "en": {
+              "title": "{{Music}} & Guitar",
+              "text": "Playing guitar and enjoying music as a creative outlet and a way to stay balanced."
+            },
+            "es": {
+              "title": "{{Música}} y Guitarra",
+              "text": "Tocar la guitarra y disfrutar de la música como una forma creativa de mantener el equilibrio."
+            },
+            "fr": {
+              "title": "{{Musique}} & Guitare",
+              "text": "Jouer de la guitare et apprécier la musique comme un exutoire créatif et un équilibre personnel."
+            },
+            "ko": {
+              "title": "{{음악}} 및 기타 연주",
+              "text": "기타를 연주하고 음악을 즐기며 창의적인 휴식과 균형을 유지합니다."
+            }
+          }
+        },
+        {
+          "id": 4,
+          "faIcon": "fa-solid fa-layer-group",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": null,
+          "link": { "href": null, "tooltipString": null },
+          "copyToClipboardButton": false,
+          "locales": {
+            "en": {
+              "title": "{{Product}} & UX Thinking",
+              "text": "Caring about how users interact with systems and building interfaces that are practical and intuitive."
+            },
+            "es": {
+              "title": "{{Producto}} y Pensamiento UX",
+              "text": "Pensar en cómo los usuarios interactúan con los sistemas y crear interfaces prácticas e intuitivas."
+            },
+            "fr": {
+              "title": "{{Produit}} & Pensée UX",
+              "text": "Se soucier de l’interaction utilisateur et créer des interfaces pratiques et intuitives."
+            },
+            "ko": {
+              "title": "{{제품}} 및 UX 사고",
+              "text": "사용자가 시스템과 상호작용하는 방식을 고민하며 실용적이고 직관적인 인터페이스를 만드는 것."
+            }
+          }
+        },
+        {
+          "id": 5,
+          "faIcon": "fa-solid fa-wand-magic-sparkles",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": null,
+          "link": { "href": null, "tooltipString": null },
+          "copyToClipboardButton": false,
+          "locales": {
+            "en": {
+              "title": "{{AI}} as a Work Tool",
+              "text": "Using AI to speed up research, clarify ideas, and improve productivity—not as a replacement for engineering judgment."
+            },
+            "es": {
+              "title": "{{IA}} como Herramienta de Trabajo",
+              "text": "Usar IA para acelerar la investigación, aclarar ideas y mejorar la productividad, sin reemplazar el criterio técnico."
+            },
+            "fr": {
+              "title": "{{IA}} comme Outil de Travail",
+              "text": "Utiliser l’IA pour accélérer la recherche, clarifier les idées et améliorer la productivité, sans remplacer le jugement technique."
+            },
+            "ko": {
+              "title": "{{AI}} 업무 보조 도구",
+              "text": "AI를 엔지니어링 판단을 대체하지 않는 선에서 조사, 정리, 생산성 향상을 위한 도구로 활용합니다."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
