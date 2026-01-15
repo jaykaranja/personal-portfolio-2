@@ -4,38 +4,36 @@ import { Icon } from "@/components/ui/icon";
 import { Marquee } from "@devnomic/marquee";
 import "@devnomic/marquee/dist/index.css";
 import { icons } from "lucide-react";
+import { ReactNode } from "react";
+import { SiReact, SiNextdotjs, SiPostgresql, SiTypescript, SiDocker } from '@icons-pack/react-simple-icons';
 interface sponsorsProps {
-  icon: string;
+  icon: ReactNode;
   name: string;
 }
 
 const sponsors: sponsorsProps[] = [
   {
-    icon: "Code",
+    icon: <SiReact color="#61DAFB" />,
     name: "React",
   },
   {
-    icon: "Server",
+    icon: <SiNextdotjs color="#1456C7" />,
     name: "Next.js",
   },
   {
-    icon: "Database",
+    icon: <SiPostgresql color="#4169E1" />,
     name: "PostgreSQL",
   },
   {
-    icon: "Cloud",
-    name: "AWS",
-  },
-  {
-    icon: "Smartphone",
+    icon: <SiReact color="#61DAFB" />,
     name: "React Native",
   },
   {
-    icon: "FileCode",
+    icon: <SiTypescript color="#3178C6" />,
     name: "TypeScript",
   },
   {
-    icon: "Container",
+    icon: <SiDocker color="#2496ED" />,
     name: "Docker",
   },
 ];
@@ -43,7 +41,7 @@ const sponsors: sponsorsProps[] = [
 export const SponsorsSection = () => {
   return (
     <section id="sponsors" className="max-w-[75%] mx-auto pb-24 sm:pb-32">
-      <h2 className="text-lg md:text-xl text-center mb-6">
+      <h2 className="text-lg md:text-xl text-center mb-20">
         Technologies We Work With
       </h2>
 
@@ -59,12 +57,7 @@ export const SponsorsSection = () => {
               key={name}
               className="flex items-center text-xl md:text-2xl font-medium"
             >
-              <Icon
-                name={icon as keyof typeof icons}
-                size={32}
-                color="white"
-                className="mr-2"
-              />
+              {icon} &nbsp;
               {name}
             </div>
           ))}

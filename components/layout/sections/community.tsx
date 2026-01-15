@@ -21,7 +21,7 @@ export const CommunitySection = () => {
                 <div>
                   Ready to start your
                   <span className="text-transparent pl-2 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
-                    Project?
+                    project?
                   </span>
                 </div>
               </CardTitle>
