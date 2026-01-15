@@ -35,6 +35,10 @@ interface FeatureProps {
 
 const routeList: RouteProps[] = [
   {
+    href: "#projects",
+    label: "Projects",
+  },
+  {
     href: "#testimonials",
     label: "Testimonials",
   },

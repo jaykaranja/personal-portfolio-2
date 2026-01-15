@@ -18,6 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br" suppressHydrationWarning>
+      <head>
+        <link rel="preload" href="/littu-ss-light.png" as="image" />
+        <link rel="preload" href="/littu-ss-dark.png" as="image" />
+      </head>
       <body className={cn("min-h-screen bg-background", inter.className)}>
         <ThemeProvider
           attribute="class"

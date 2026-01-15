@@ -151,5 +151,60 @@ html {
   }
   body {
     @apply bg-background text-foreground;
+    /* Enhanced subtle grid paper background */
+    background-image: 
+      /* Main grid lines */
+      linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+      /* Major grid lines */
+      linear-gradient(rgba(0, 0, 0, 0.015) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 0, 0, 0.015) 1px, transparent 1px),
+      /* Subtle dots at intersections */
+      radial-gradient(circle at 0px 0px, rgba(0, 0, 0, 0.08) 0.6px, transparent 1.2px),
+      /* Very subtle diagonal pattern */
+      linear-gradient(45deg, transparent 49%, rgba(0, 0, 0, 0.008) 50%, transparent 51%),
+      /* Subtle gradient overlay */
+      radial-gradient(ellipse at center, rgba(0, 0, 0, 0.005) 0%, transparent 70%);
+    background-size: 
+      80px 80px, 80px 80px, 
+      400px 400px, 400px 400px,
+      80px 80px,
+      160px 160px,
+      100vw 100vh;
+    background-position: 
+      -1px -1px, -1px -1px, 
+      -1px -1px, -1px -1px,
+      0px 0px,
+      0px 0px,
+      center center;
+  }
+  
+  .dark body {
+    /* Enhanced subtle grid paper background for dark mode */
+    background-image: 
+      /* Main grid lines */
+      linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+      /* Major grid lines */
+      linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+      /* Subtle dots at intersections */
+      radial-gradient(circle at 0px 0px, rgba(255, 255, 255, 0.1) 0.6px, transparent 1.2px),
+      /* Very subtle diagonal pattern */
+      linear-gradient(45deg, transparent 49%, rgba(255, 255, 255, 0.01) 50%, transparent 51%),
+      /* Subtle gradient overlay */
+      radial-gradient(ellipse at center, rgba(255, 255, 255, 0.008) 0%, transparent 70%);
+    background-size: 
+      80px 80px, 80px 80px, 
+      400px 400px, 400px 400px,
+      80px 80px,
+      160px 160px,
+      100vw 100vh;
+    background-position: 
+      -1px -1px, -1px -1px, 
+      -1px -1px, -1px -1px,
+      0px 0px,
+      0px 0px,
+      center center;
   }
 }
